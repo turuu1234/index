@@ -10,6 +10,7 @@ body {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   width: 1920px;
   align-items: center;
   justify-content: space-around;
@@ -17,6 +18,7 @@ body {
 
 .header-buttons {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -162,6 +164,7 @@ body {
 }
 .body{
   position:absolute;
+  flex-wrap: wrap;
   top:830px;
   background-color:#09b3b0;
   width:1920px;
